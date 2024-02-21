@@ -124,12 +124,12 @@ Inet — central	   192.168.255.0/30	192.168.255.3
 
 
 
-#№ Практическая часть
+# Практическая часть
 
-Развернут стенд с помощью Vagrant согласно структуре сети Pic_2.
+## Развернут стенд с помощью Vagrant согласно структуре сети Pic_2.
 
-# Проверка выхода в Интернет:
-# vagrant@centralServer:~$ traceroute 8.8.8.8
+### Проверка выхода в Интернет:
+### vagrant@centralServer:~$ traceroute 8.8.8.8
 traceroute to 8.8.8.8 (8.8.8.8), 30 hops max, 60 byte packets
  1  _gateway (192.168.0.1)  0.631 ms  0.605 ms  0.811 ms
  2  192.168.255.1 (192.168.255.1)  1.706 ms  1.694 ms  1.682 ms
@@ -157,7 +157,7 @@ traceroute to 8.8.8.8 (8.8.8.8), 30 hops max, 60 byte packets
 24  dns.google (8.8.8.8)  38.203 ms  39.670 ms *
 vagrant@centralServer:~$ 
 
-# vagrant@office1Server:~$ traceroute 8.8.8.8
+### vagrant@office1Server:~$ traceroute 8.8.8.8
 traceroute to 8.8.8.8 (8.8.8.8), 30 hops max, 60 byte packets
  1  _gateway (192.168.2.129)  0.647 ms  0.742 ms  0.698 ms
  2  192.168.255.9 (192.168.255.9)  1.288 ms  1.211 ms  1.176 ms
@@ -186,7 +186,7 @@ traceroute to 8.8.8.8 (8.8.8.8), 30 hops max, 60 byte packets
 25  dns.google (8.8.8.8)  40.847 ms  38.377 ms  38.846 ms
 vagrant@office1Server:~$ 
 
-# vagrant@office2Server:~$ traceroute 8.8.8.8
+### vagrant@office2Server:~$ traceroute 8.8.8.8
 traceroute to 8.8.8.8 (8.8.8.8), 30 hops max, 60 byte packets
  1  _gateway (192.168.1.1)  0.536 ms  0.418 ms  0.403 ms
  2  192.168.255.5 (192.168.255.5)  0.983 ms  0.970 ms  0.957 ms
